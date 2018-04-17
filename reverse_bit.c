@@ -1,5 +1,9 @@
 #include <limits.h>
 
+/**
+*  高端用法 http://blog.jobbole.com/70993/
+**/
+
 unsigned int reverse_bits(unsigned int v){
     // v input bits to be reversed
     unsigned int r = v; // r will be reversed bits of v; first get LSB of v
